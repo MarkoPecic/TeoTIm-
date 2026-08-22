@@ -1,0 +1,10 @@
+# robots.txt — TeoTim Trstenik
+# Ceo javni sajt je otvoren za indeksiranje. Radni fajlovi dizajna
+# (.dc.html izvori i uploads/) nisu deo javnog sajta.
+
+User-agent: *
+Allow: /
+Disallow: /uploads/
+Disallow: /*.dc.html$
+
+Sitemap: https://teotim.rs/sitemap.xml
